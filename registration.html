@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <title>shwetha R</title>
+    </head>
+    <body>
+        <form>
+            <h2><u>STUDENT REGISTRATION FORM</u></h2>
+
+            <br>
+
+            <label for="firstname">FIRST NAME:</label>
+            <input type="text" name="firstname" id="firstname"  maxlength="30" placeholder="Enter first name">
+
+            <br>
+
+            <label for="firstname">LAST NAME:</label>
+            <input type="text" name="firstname" id="firstname" required pattern="[A-Za-z]+" maxlength="30" placeholder="Enter last name">
+
+            <!-- pattern=".{8,}" -->
+            <br>
+
+            <label for="date">DATE OF BIRTH</label>
+            <input type="date" name="date" required>
+
+            <br>
+
+            <label for="email">EMAIL:</label>
+            <input type="email" name="email" required>
+
+            <br>
+
+            <label for="mobileNo">MOBILE NO:</label>
+            <input type="tel" name="mobileNo" id="mobileNO" required maxlength="10" placeholder="Enter Mobile no">
+
+            <br>
+
+            <label for="gender">Gender :</label>
+
+            <input type="radio" name="gender" id="gender" required>
+            <label for="gender">Male</label>
+
+            <input type="radio" name="gender" id="gender" required>
+            <label for="gender">Female</label>
+
+            <br>
+
+            <label for="address">ADDRESS:</label>
+            <!-- <input type="text"> -->
+            <textarea name="address" id="address" cols="30" rows="2"></textarea>
+
+            <br>
+
+            <label for="city">CITY:</label>
+            <input type="text" name="city" id="city" required placeholder="Enter your city name">
+
+            <br>
+
+            <label for="pincode">PIN CODE:</label>
+            <input type="text" name="pincode" id="pincode" required pattern="[0-9]+" maxlength="6" placeholder="Enter pin code">
+
+            <br>
+
+            <label for="state">STATE:</label>
+            <input type="text" name="state" id="state" required placeholder="Enter your state name">
+
+            <br>
+
+            <label for="country">COUNTRY:</label>
+            <input type="text" name="country" id="country" required placeholder="Enter your country name">
+
+            <br>
+
+            <label for="hobbies">HOBBIES:</label>
+
+            <input type="checkbox" name="singing" id="singing">
+            <label for="singing">Singing</label>
+
+            <input type="checkbox" name="dancing" id="dancing">
+            <label for="dancing">Dancing</label>
+
+            <input type="checkbox" name="drawing" id="drawing">
+            <label for="drawing">Drawing</label>
+
+            <input type="checkbox" name="sketching" id="sketching">
+            <label for="sketching">Sketching</label>
+
+            <input type="checkbox" name="others" id="others">
+            <label for="others">Others</label>
+            <input type="text" name="others" id="others" placeholder="Enter any other hobby">
+
+            <br>
+
+            <label for="qualification">QUALIFICATIONS:</label>
+
+            <table border="0px">
+                <thead>
+
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+
+                    <tr>
+                        <td>1.</td>
+                        <td><b>Class X</b></td>
+                        <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
+                        <td><input type="text" pattern="[0-9]+"></td>
+                        <td><input type="text" pattern="[0-9]+"></td>
+                    </tr>
+
+                    <tr>
+                        <td>2.</td>
+                        <td><b>Class XII</b></td>
+                        <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
+                        <td><input type="text" pattern="[0-9]+"></td>
+                        <td><input type="text" pattern="[0-9]+"></td>
+                    </tr>
+
+                    <tr>
+                        <td>3.</td>
+                        <td><b>Graduation</b></td>
+                        <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
+                        <td><input type="text" pattern="[0-9]+"></td>
+                        <td><input type="text" pattern="[0-9]+"></td>
+                    </tr>
+
+                    <tr>
+                        <td>4.</td>
+                        <td><b>Masters</b></td>
+                        <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
+                        <td><input type="text" pattern="[0-9]+"></td>
+                        <td><input type="text" pattern="[0-9]+"></td>
+                    </tr>
+
+                </thead>
+            </table>
+
+            <br>
+
+            <label for="courses">Courses:</label>
+
+            <input type="radio" name="courses">
+            <label for="courses">BCA</label>
+
+            <input type="radio" name="courses">
+            <label for="courses">B.Sc</label>
+
+            <input type="radio" name="courses">
+            <label for="courses">B.Com</label>
+
+            <input type="radio" name="courses">
+            <label for="courses">BA</label>
+
+            <br>
+            <br>
+
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </form>
+    </body>
+</html>
