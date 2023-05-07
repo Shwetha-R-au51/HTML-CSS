@@ -4,7 +4,7 @@ eInput = form.querySelector("input"),
 pField = form.querySelector(".password"),
 pInput = form.querySelector("input");
 
-form.onsubmit =(e) =>{
+form.onsubmit = (e) =>{
     e.preventDefault();
     if(eInput.value==""){
         eField.classList.add("shake","error");
@@ -12,6 +12,8 @@ form.onsubmit =(e) =>{
     if(pInput.value==""){
         pField.classList.add("shake","error");
     }
+
+    
     setTimeout(()=>{
         eField.classList.remove("shake");
         pField.classList.remove("shake");
@@ -32,11 +34,9 @@ form.onsubmit =(e) =>{
     pInput.onkeyup = () =>{
         if(!pInput.value==""){
             pField.classList.add("error");
-    
         }
         else{
             pField.classList.remove("error");
         }
-    }
-    
+    } 
 }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+        <meta name="author" content="shwetha">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="simple calculator">
+        <meta name="keywords" content="HTML,CSS,Javascript">
+        <link rel="stylesheet" href="cal.css"/>
+    </head>
+    <body>
+        <div class="container">
+        <h1 id="box" style="
+        border:1px solid black;
+        border-radius:5px;
+        width:400px;
+        min-height:30px;"></h1>
+        
+       
+        <button onclick="addToTextBox(1);">1</button>
+        <button onclick="addToTextBox(2);">2</button>
+        <button onclick="addToTextBox(3);">3</button>
+        <button onclick="addToTextBox(4);">4</button>
+        <button onclick="addToTextBox(5);">5</button>
+        <br/>
+       
+        <button onclick="addToTextBox(6);">6</button>
+        <button onclick="addToTextBox(7);">7</button>
+        <button onclick="addToTextBox(8);">8</button>
+        <button onclick="addToTextBox(9);">9</button>
+        <button onclick="addToTextBox(0);">0</button>
+        <br />
+       
+        <button onclick="addToTextBox('+');">+</button>
+        <button onclick="addToTextBox('-');">-</button>
+        <button onclick="addToTextBox('*');">*</button>
+        <button onclick="addToTextBox('/');">/</button>
+        <button onclick="addToTextBox('%');">%</button>
+        <br />
+       
+        <button onclick="remove();">AC</button>
+        <button onclick="calculate();">=</button>
+
+        <script>
+            var textbox=document.getElementById("box");
+            function addToTextBox(x){
+                textbox.innerHTML +=x;
+            }
+            function remove(){
+                textbox.innerHTML="";
+            }
+            function calculate(){
+                var result=eval(textbox.innerHTML);
+                textbox.innerHTML=result;
+            }
+        </script>
+    
+
+        
+    </body>
+</html>

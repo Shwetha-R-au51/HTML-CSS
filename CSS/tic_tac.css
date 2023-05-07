@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    align-items: center;
+    margin:50px 100px;
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    width:50px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aqua;
+    margin-top: 2px;
+}
+#b1:hover,#b2:hover,#b3:hover,#b4:hover,#b5:hover,#b6:hover,#b7:hover,#b8:hover,#b9:hover{
+    color: black;
+    background-color: blue;
+}
+
+#but{
+    background-color: rgb(138, 215, 138);
+    border-radius: 5px;
+    width: 100px;
+    color:black;
+    border-color: palevioletred;
+}
+#but:hover{
+    background-color: aquamarine;
+}
+#print{
+    text-shadow: 5px;
+    color: rgb(205, 50, 197);
+}

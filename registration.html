@@ -1,164 +1,178 @@
 <html>
     <head>
-        <title>shwetha R</title>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="shwetha">
+        <meta name ="description" content="Login page for the website">
+        <meta name ="keywords" content="HTML,CSS,Javascript">
+        <title>Registration</title>
+        <link rel="stylesheet" href="C:\Users\COMP\HTML-CSS\CSS\style1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     </head>
     <body>
-        <form>
-            <h2><u>STUDENT REGISTRATION FORM</u></h2>
+        <div class="nav_bar">
+            <a class="active" href="#">< class="icon fa fa-home"></i></a>
+                
+        </div>
+        <div class="first_container">
+            <header><h1><u>Student Registration Form</u></h1></header>
+          <form>
+               
+                <br>
 
-            <br>
+                <label for="firstname">FIRST NAME:</label>
+                <input type="text" name="firstname" id="firstname" required pattern="[A-Za-z]+" maxlength="30" placeholder="Enter first name">
 
-            <label for="firstname">FIRST NAME:</label>
-            <input type="text" name="firstname" id="firstname"  maxlength="30" placeholder="Enter first name">
+                <br>
 
-            <br>
+                <label for="firstname">LAST NAME:</label>
+                <input type="text" name="firstname" id="firstname" required pattern="[A-Za-z]+" maxlength="30" placeholder="Enter last name">
 
-            <label for="firstname">LAST NAME:</label>
-            <input type="text" name="firstname" id="firstname" required pattern="[A-Za-z]+" maxlength="30" placeholder="Enter last name">
+                <!-- pattern=".{8,}" -->
+                <br>
 
-            <!-- pattern=".{8,}" -->
-            <br>
+                <label for="date">DATE OF BIRTH</label>
+                <input type="date" name="date" required>
 
-            <label for="date">DATE OF BIRTH</label>
-            <input type="date" name="date" required>
+                <br>
 
-            <br>
+                <label for="email">EMAIL:</label>
+                <input type="email" name="email" required>
 
-            <label for="email">EMAIL:</label>
-            <input type="email" name="email" required>
+                <br>
 
-            <br>
+                <label for="mobileNo">MOBILE NO:</label>
+                <input type="tel" name="mobileNo" id="mobileNO" required maxlength="10" placeholder="Enter Mobile no">
 
-            <label for="mobileNo">MOBILE NO:</label>
-            <input type="tel" name="mobileNo" id="mobileNO" required maxlength="10" placeholder="Enter Mobile no">
+                <br>
 
-            <br>
+                <label for="gender">Gender :</label>
 
-            <label for="gender">Gender :</label>
+                <input type="radio" name="gender" id="gender" required>
+                <label for="gender">Male</label>
 
-            <input type="radio" name="gender" id="gender" required>
-            <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" required>
+                <label for="gender">Female</label>
 
-            <input type="radio" name="gender" id="gender" required>
-            <label for="gender">Female</label>
+                <br>
 
-            <br>
+                <label for="address">ADDRESS:</label>
+                <!-- <input type="text"> -->
+                <textarea name="address" id="address" cols="30" rows="2"></textarea>
 
-            <label for="address">ADDRESS:</label>
-            <!-- <input type="text"> -->
-            <textarea name="address" id="address" cols="30" rows="2"></textarea>
+                <br>
 
-            <br>
+                <label for="city">CITY:</label>
+                <input type="text" name="city" id="city" required placeholder="Enter your city name">
 
-            <label for="city">CITY:</label>
-            <input type="text" name="city" id="city" required placeholder="Enter your city name">
+                <br>
 
-            <br>
+                <label for="pincode">PIN CODE:</label>
+                <input type="text" name="pincode" id="pincode" required pattern="[0-9]+" maxlength="6" placeholder="Enter pin code">
 
-            <label for="pincode">PIN CODE:</label>
-            <input type="text" name="pincode" id="pincode" required pattern="[0-9]+" maxlength="6" placeholder="Enter pin code">
+                <br>
 
-            <br>
+                <label for="state">STATE:</label>
+                <input type="text" name="state" id="state" required placeholder="Enter your state name">
 
-            <label for="state">STATE:</label>
-            <input type="text" name="state" id="state" required placeholder="Enter your state name">
+                <br>
 
-            <br>
+                <label for="country">COUNTRY:</label>
+                <input type="text" name="country" id="country" required placeholder="Enter your country name">
 
-            <label for="country">COUNTRY:</label>
-            <input type="text" name="country" id="country" required placeholder="Enter your country name">
+                <br>
 
-            <br>
+                <label for="hobbies">HOBBIES:</label>
 
-            <label for="hobbies">HOBBIES:</label>
+                <input type="checkbox" name="singing" id="singing">
+                <label for="singing">Singing</label>
 
-            <input type="checkbox" name="singing" id="singing">
-            <label for="singing">Singing</label>
+                <input type="checkbox" name="dancing" id="dancing">
+                <label for="dancing">Dancing</label>
 
-            <input type="checkbox" name="dancing" id="dancing">
-            <label for="dancing">Dancing</label>
+                <input type="checkbox" name="drawing" id="drawing">
+                <label for="drawing">Drawing</label>
 
-            <input type="checkbox" name="drawing" id="drawing">
-            <label for="drawing">Drawing</label>
+                <input type="checkbox" name="sketching" id="sketching">
+                <label for="sketching">Sketching</label>
 
-            <input type="checkbox" name="sketching" id="sketching">
-            <label for="sketching">Sketching</label>
+                <input type="checkbox" name="others" id="others">
+                <label for="others">Others</label>
+                <input type="text" name="others" id="others" placeholder="Enter any other hobby">
 
-            <input type="checkbox" name="others" id="others">
-            <label for="others">Others</label>
-            <input type="text" name="others" id="others" placeholder="Enter any other hobby">
+                <br>
 
-            <br>
+                <label for="qualification">QUALIFICATIONS:</label>
 
-            <label for="qualification">QUALIFICATIONS:</label>
+                <table border="0px">
+                    <thead>
 
-            <table border="0px">
-                <thead>
+                        <tr>
+                            <th>S.No.</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
 
-                    <tr>
-                        <th>S.No.</th>
-                        <th>Examination</th>
-                        <th>Board</th>
-                        <th>Percentage</th>
-                        <th>Year of Passing</th>
-                    </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td><b>Class X</b></td>
+                            <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
+                            <td><input type="text" pattern="[0-9]+"></td>
+                            <td><input type="text" pattern="[0-9]+"></td>
+                        </tr>
 
-                    <tr>
-                        <td>1.</td>
-                        <td><b>Class X</b></td>
-                        <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
-                        <td><input type="text" pattern="[0-9]+"></td>
-                        <td><input type="text" pattern="[0-9]+"></td>
-                    </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td><b>Class XII</b></td>
+                            <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
+                            <td><input type="text" pattern="[0-9]+"></td>
+                            <td><input type="text" pattern="[0-9]+"></td>
+                        </tr>
 
-                    <tr>
-                        <td>2.</td>
-                        <td><b>Class XII</b></td>
-                        <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
-                        <td><input type="text" pattern="[0-9]+"></td>
-                        <td><input type="text" pattern="[0-9]+"></td>
-                    </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td><b>Graduation</b></td>
+                            <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
+                            <td><input type="text" pattern="[0-9]+"></td>
+                            <td><input type="text" pattern="[0-9]+"></td>
+                        </tr>
 
-                    <tr>
-                        <td>3.</td>
-                        <td><b>Graduation</b></td>
-                        <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
-                        <td><input type="text" pattern="[0-9]+"></td>
-                        <td><input type="text" pattern="[0-9]+"></td>
-                    </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td><b>Masters</b></td>
+                            <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
+                            <td><input type="text" pattern="[0-9]+"></td>
+                            <td><input type="text" pattern="[0-9]+"></td>
+                        </tr>
 
-                    <tr>
-                        <td>4.</td>
-                        <td><b>Masters</b></td>
-                        <td><input type="text" maxlength="10" pattern="[A-Za-z]+"></td>
-                        <td><input type="text" pattern="[0-9]+"></td>
-                        <td><input type="text" pattern="[0-9]+"></td>
-                    </tr>
+                    </thead>
+                </table>
 
-                </thead>
-            </table>
+                <br>
 
-            <br>
+                <label for="courses">Courses:</label>
 
-            <label for="courses">Courses:</label>
+                <input type="radio" name="courses">
+                <label for="courses">BCA</label>
 
-            <input type="radio" name="courses">
-            <label for="courses">BCA</label>
+                <input type="radio" name="courses">
+                <label for="courses">B.Sc</label>
 
-            <input type="radio" name="courses">
-            <label for="courses">B.Sc</label>
+                <input type="radio" name="courses">
+                <label for="courses">B.Com</label>
 
-            <input type="radio" name="courses">
-            <label for="courses">B.Com</label>
+                <input type="radio" name="courses">
+                <label for="courses">BA</label>
 
-            <input type="radio" name="courses">
-            <label for="courses">BA</label>
-
-            <br>
-            <br>
-
-            <button type="submit">SUBMIT</button>
-            <button type="reset">RESET</button>
-        </form>
-    </body>
+                <br>
+                <br>
+                
+                <button type="submit">SUBMIT</button>
+                <button type="reset">RESET</button>
+            </div>
+            </form>
+        </body>
 </html>

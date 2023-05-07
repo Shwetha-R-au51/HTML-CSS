@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="shwetha">
+        <meta name ="description" content="Login page">
+        <meta name ="keywords" content="HTML,CSS,Javascript">
+        <title>Login page</title>
+        <link rel="stylesheet" href="C:\Users\COMP\HTML-CSS\CSS\style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Sign Up</h1>
+            <form>
+              
+                <div class="icon">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa-stack-1x fa-inverse">1 </i> 
+                      </span>
+                  
+                </div>
+                <h2 style="margin-bottom:10px">Your Basic Info</h2>
+                <div class="input-area">
+                <div class="input-name">
+                    <label for="name">Name:</label><br/>
+                    <input type="text" name="name" required>
+              
+                
+                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                </div>
+                <div class="input-email">
+                    <label for="Email">Email:</label><br/>
+                    <input type="text" name="email" required><br/>
+                </div>
+                <div class="input-password">
+                    <label for="password">password:</label><br/>
+                    <input type="text" name="password" required>
+                    <i class="icon fa fa-lock"></i>
+                </div>
+                <div class="input-age">
+                    <label for="age">Age:</label><br/>
+                    <input type="radio" name ="age">
+                    <label name="age">Under 13</label><br/>
+                    <input type="radio" name ="age">
+                    <label name="age">Over 13</label><br/>   
+                </div>
+                <div class="icon">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa-stack-1x fa-inverse">2</i> 
+                      </span>
+                    </div>
+                    <h2 style="margin-bottom:20px">Basic profile</h2>
+                
+                <div class="biography">
+                    <label for="bio details">Bio:</label><br/>
+                    <textarea name="textarea" rows="4" cols="30"></textarea><br/>
+                </div>
+                <div class="drop-menu">
+                    <label for="jobrole">Job Role:</label><br/>
+                  
+                    <select id="job" name="web">
+                      <option value="">web</option>
+                      <option value="">Front-End Developer</option>
+                      <option value="">PHP Developer</option>
+                      <option value="">Python Developer</option>
+                      <option value="">web Developer</option>
+                      <option value="">word press developer</option>
+                      <option value="">Mobile</option>
+                      <option value="">Android Developer</option>
+                      <option value="">IOS Developer</option>
+                      <option value="">Mobile Designer</option>
+                      <option value="">Business</option>
+                      <option value="">Busines owner</option>
+                      <option value="">Freelancer</option>
+                    </select>
+                </div><br/>
+                <div class="check-list">
+                    <label for="intersts">Intersts:</label><br/>
+                    <input type="checkbox" for="Development" required>
+                    <label for="Development">Development</label><br/>
+                    <input type="checkbox" for="Design" required>
+                    <label for="Design">Design</label><br/>
+                    <input type="checkbox" for="Business" required>
+                    <label for="Business">Business</label><br/>
+                </div>
+                <div class="submit">
+                    <input type="submit" name="submit" placeholder="Sign Up">
+                </div>
+                </div>
+            </form>
+        </div>
+    </body>
+    </html>
