@@ -1,0 +1,183 @@
+.login-form{
+    border:1px solid black;
+    position:absolute;
+    left:300px;
+    top:200px;
+    width:500px;
+    min-height:300px;
+    padding:30px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgba(156, 220, 245, 0.719);
+}
+.signup-form{
+    border:1px solid black;
+    position:absolute;
+    left:300px;
+    border-style: none;
+    background-color: rgba(156, 220, 245, 0.719);
+    top:80px;
+    width:500px;
+    min-height:300px;
+    padding:30px;
+    border-radius: 20px;
+}
+.add-form{
+    border:1px solid black;
+    position:absolute;
+    left:300px;
+    top:100px;
+    width:500px;
+    min-height:300px;
+    padding:30px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgba(156, 220, 245, 0.719);
+
+}
+#medicinename,#medicinecat{
+    border-radius: 15px;
+    width:200px;
+    height:30px;
+    border-style:outset;
+    color: rgb(18, 19, 19);
+    padding:10px;
+    position:relative;
+    left:100px;
+}
+#medicinecat{
+    border-radius: 15px;
+    width:200px;
+    height:30px;
+    border-style:outset;
+    color: rgb(18, 19, 19);
+    padding:10px;
+    position:relative;
+    left:80px;
+}
+#medicinecount{
+    border-radius: 15px;
+    width:200px;
+    height:30px;
+    border-style:outset;
+    color: rgb(18, 19, 19);
+    padding:10px;
+    position:relative;
+    left:150px;
+}
+#medicinedesc{
+    border-radius: 15px;
+    width:200px;
+    height:40px;
+    border-style:outset;
+    color: rgb(18, 19, 19);
+    padding:10px;
+    position:relative;
+    left:130px;
+}
+h3{
+    font-size:20px;
+    text-align: center;
+    padding:20px;
+    color:rgb(21, 160, 224);
+}
+#email{
+    border-radius: 15px;
+    width:200px;
+    height:30px;
+    border-style:outset;
+    color: rgb(18, 19, 19);
+    padding:10px;
+    position:relative;
+    left:50px;
+}
+#password1,#password2{
+    border-radius: 15px;
+    width:200px;
+    height:30px;
+    border-style:outset;
+    color: rgb(18, 19, 19);
+    padding:10px;
+    position:relative;
+    left:80px;
+}
+#password2{
+    border-radius: 15px;
+    width:200px;
+    height:30px;
+    border-style:outset;
+    color: rgb(18, 19, 19);
+    padding:10px;
+    position:relative;
+    left:21px;
+}
+#first-name,#last-name{
+    
+    border-radius: 15px;
+    width:200px;
+    height:30px;
+    border-style:outset;
+    color: rgb(18, 19, 19);
+    padding:10px;
+    position:relative;
+    left:75px;
+}
+.userrole{
+    position: relative;
+    left:80px;
+    border-radius: 10px;
+    width:100px;
+}
+.submit-btn{
+    margin:3px;
+    padding:6px;
+    border-radius: 10px;
+    width:100px;
+    height:30px;
+    background-color: rgb(21, 160, 224);
+    align-items: center;
+    position: relative;
+    left:120px;
+    color:whitesmoke;
+    border-style: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:30px;
+    background-color: rgba(0, 0, 0, 0.692);
+    color:whitesmoke;
+}
+
+
+.seller-nav{
+    width:100%;
+    height: 50px;
+    color:whitesmoke;
+    background-color:rgb(12, 11, 12);
+    position:absolute;
+    top:0;
+    text-align: center;
+    padding:10px;
+    font-size: larger;
+    color:rgb(21, 160, 224);
+}
+
+.seller-nav a{
+    border:none;
+    position:absolute;
+    right:150px;
+    text-decoration: none;
+    padding:7px;
+    border-radius: 15px;
+    background-color: rgb(21, 160, 224);
+    color:whitesmoke;
+    font-size: large;
+
+}
+#logout{
+    position: absolute;
+    right:40px;
+}
